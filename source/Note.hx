@@ -90,10 +90,17 @@ class Note extends FlxSprite
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
+				case 'Bullet_Note':
+					ignoreNote = mustPress;
+					reloadNote('BULLET');
+					noteSplashTexture = 'HURTnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 					if(isSustainNote) {
-						missHealth = 0.1;
+						missHealth = 0.9;
 					} else {
-						missHealth = 0.3;
+						missHealth = 0.9;
 					}
 					hitCausesMiss = true;
 				case 'No Animation':
