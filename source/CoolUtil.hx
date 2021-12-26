@@ -16,7 +16,7 @@ class CoolUtil
 	    ['Baby', -'baby'], 
 		['Hard', '-hard'],
 		['Fucked', '-fucked'],
-		['Insane', -'insane'
+		['Insane', -'insane']
 	];
 
 	public static function difficultyString():String
